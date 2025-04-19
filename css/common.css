@@ -58,11 +58,14 @@ body {
   letter-spacing: 0.04em;
   color: #2e2f42;
   padding-left: 16px;
+  outline: none;
 }
+
 
 .login-form > label{
   display: flex;
   flex-direction: column;
+
 }
 .login-form > label > input{
   width: 340px;
@@ -73,7 +76,9 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: #2e2f42;  
+  outline: none;
+  
 }
 .login-form > button {
   border-radius: 8px;
@@ -89,4 +94,27 @@ body {
   color: #fff;
   text-align: center;
   margin-top: 16px;
+}
+.login-form > button:hover,
+.login-form>button:focus{
+  background-color:#6c8cff;;
+}
+
+.change-color{
+  width: 148px;
+  height: 40px;
+  background-color:#4e75ff;
+  border:  none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+.change-color:hover,
+.change-color:focus {
+  background-color: #6c8cff;
 }
