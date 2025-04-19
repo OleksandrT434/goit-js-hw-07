@@ -12,6 +12,32 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.item {
+  background: #f6f6fe;
+  list-style:  none;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  height: auto;
+  margin-bottom: 24px;
+}
+ .item ul {
+  padding: 0;
+ }
+
+.item ul > li{
+  list-style: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
 .gallery {
  display: flex;
  flex-wrap: wrap;
