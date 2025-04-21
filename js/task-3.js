@@ -4,8 +4,10 @@ const userEnter = document.querySelector('#name-input');
 
 
 function handleUserNameInput() {
+    const trimValue = userEnter.value.trim();
+
     if (userEnter.value.trim() !== '') {
-        userText.textContent = userEnter.value;
+        userText.textContent = trimValue;
     } else {
         userText.textContent = 'Anonymous';
     }
