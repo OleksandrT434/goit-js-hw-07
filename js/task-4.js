@@ -8,17 +8,17 @@ const userForm = document.querySelector('.login-form');
 
 userForm.addEventListener('submit', e => {
     e.preventDefault();
-    const mail = e.target.elements.email.value.trim();
-    const pass = e.target.elements.password.value.trim();
+    const email = e.target.elements.email.value.trim();
+    const password = e.target.elements.password.value.trim();
     
-    if (mail === '' || pass === '') {
+    if (email === '' || password === '') {
         alert('All form fields must be filled in');
         return;
     }
 
     const formData = {
-    mail,
-    pass
+    email,
+    password
   };
 
     console.log(formData);
