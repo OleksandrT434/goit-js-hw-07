@@ -5,7 +5,7 @@ function getRandomHexColor() {
 }
 
 
-const colorBack = document.querySelector('.widget');
+const colorBack = document.querySelector('.change-color');
 const spanColor = document.querySelector('.color');
 
 
